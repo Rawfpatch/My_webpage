@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #c4e2ff;
+}
+.title {
+    color: #333;
+    text-align: center;
+}
+h6 {
+    text-align: center;
+    color: #666;
+}
+p {
+    text-align: center;
+}
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin: 10px 0;
+}
+button {
+    background-color: #ffb800;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: #45a049;
+}
+.assignment {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+input, select {
+    margin: 5px;
+    padding: 8px;
+}
+#result1, #result2, #result3, #result4 {
+    margin-top: 10px;
+    font-weight: bold;
+}
